@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#landing_page {
+  background-image: url(/landingpageimage2.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+/* NAVBAR STYLING */
+#navbar {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  display: flex;
+  font-size: large;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.navbar_container h1 {
+  font-size: 25px;
+  flex: 1;
+}
+
+.navbar_container ul {
+  display: flex;
+  flex: 2.5;
+}
+.navbar_container ul li {
+  list-style: none;
+  flex: 1;
+  cursor: pointer;
+}
+.navbar_container ul li:hover {
+  transform: scale(0.97);
+  color: rgb(196, 190, 190);
+}
+
+/* lANDING PAGE HOOK */
+
+#hook {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.37);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20em auto;
+  padding: 2em 4em;
+  text-align: center;
+  line-height: 2.5em;
+}
+
+.hook_container small {
+  font-size: large;
+  color: rgb(162, 226, 247);
+}
+.hook_container button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid white;
+  padding: 10px 16px;
+  margin-top: 1em;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.hook_container button:hover {
+  background-color: #fff;
+  color: black;
+  transition: background-color 0.3s ease;
+}
