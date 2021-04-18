@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="/music.css" />
     <title>muzică eternă</title>
   </head>
@@ -14,11 +20,14 @@
         <!-- <img src="/musiclogo.png" style="width: 40px" /> -->
         <h1>Muzică Eternă</h1>
         <ul>
-          <li>Home</li>
-          <li>Explore</li>
-          <li>Contact</li>
-          <li>Sign up</li>
-          <li>My Account</li>
+          <li class="menu_item">Home</li>
+          <li class="menu_item menu_item--explore">Explore</li>
+          <li class="menu_item menu_item--shop">Shop</li>
+          <li class="menu_item menu_item--help">Help</li>
+          <li class="menu_item menu_item--my-account">My Account</li>
+          <li class="menu_item">
+            <button class="highlight">Try for free</button>
+          </li>
         </ul>
       </div>
 
@@ -32,8 +41,16 @@
           >Use your favorite artists music creating software and create the best
           sounding music and beats</small
         >
-        <button>Join Now</button>
+        <div class="buttons">
+          <button class="highlight">
+            Try for free <i class="fab fa-apple"></i>
+            <i class="fab fa-windows"></i>
+          </button>
+          <button class="normal">Buy now</button>
+        </div>
       </div>
+
+      <!-- Second page -->
     </div>
     <script src="/music.js"></script>
   </body>
