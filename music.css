@@ -118,3 +118,30 @@ body {
 .hook_container .highlight:hover {
   background-color: rgb(182, 226, 229);
 }
+
+/* Second page */
+#second_page {
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom right, #1f1e23, #0d3960);
+}
+
+#two_cards {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hook_card {
+  margin-top: 7em;
+  border-radius: 1em;
+  height: 400px;
+  color: #fff;
+  line-height: 0.5;
+}
+
+.hook_card h2 {
+  margin: 50px 0 0 50px;
+}
